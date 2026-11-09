@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* z index start */
+.main{
+    height: 500px;
+    width: 700px;
+    background: teal;
+    margin: 0 auto;
+    position: relative;
+  
+}
+.one{
+    height: 150px;
+    width: 200px;
+    background: tomato;
+    position: absolute;
+    z-index: 1;
+
+}
+.two{
+    height: 150px;
+    width: 200px;
+    background: blueviolet;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
+
+}
+.three{
+    height: 150px;
+    width: 200px;
+    background: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+
+}
+.four{
+    height: 150px;
+    width: 200px;
+    background: teal;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    z-index: 4;
+
+}
+    
+.five{
+    height: 75px;
+    width: 75px;
+    background: rgb(169, 30, 208);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+
+}
+/* zindex end*/
+
+/* before after start*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* before after end*/
